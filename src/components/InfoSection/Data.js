@@ -13,6 +13,7 @@ export const homeObjone = {
    dark: true,
    primary: true,
    darkText: false
+
 };
 
 
@@ -30,7 +31,8 @@ export const homeObjtwo = {
    alt: 'tokenomics',
    dark: false,
    primary: true,
-   darkText: true
+   darkText: true,
+   href: 'https://link.medium.com/wLPhtu4kAlb'
 };
 
 

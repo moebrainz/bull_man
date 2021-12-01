@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElement';
 import Video from '../../video/v2.mp4';
-import { Button } from '../ButtonElement';
+import { ButtonLink } from '../ButtonElement';
 
 const HeroSection = () => {
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
                The first ever token that rewards holders through NFT
             </HeroP>
             <HeroBtnWrapper>
-               <Button to='/buy'
+               <ButtonLink href="https://app.tinyman.org/#/swap?asset_in=0"
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
                   primary="true"
@@ -30,16 +30,16 @@ const HeroSection = () => {
                >
                   Get Token From TinyMan {hover ? <ArrowForward /> : <ArrowRight />}
 
-               </Button>
-               <Button to='/buy'
+               </ButtonLink>
+               <ButtonLink to='/buy'
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
                   primary="true"
                   dark="true"
                >
-                  Get Token From Algo Dex {hover ? <ArrowForward /> : <ArrowRight />}
+                  Get Token Presale {hover ? <ArrowForward /> : <ArrowRight />}
 
-               </Button>
+               </ButtonLink>
             </HeroBtnWrapper>
          </HeroContent>
       </HeroContainer>

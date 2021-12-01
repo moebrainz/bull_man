@@ -64,6 +64,15 @@ font-size: 14px;
    transition: 0.3s ease-in-out;
 }
 `
+export const FooterLinker = styled.a`
+color: #fff;
+text-decoration: none;
+
+&:hover {
+   color: #01bf71;
+   transition: 0.3s ease-in-out;
+}
+`
 
 export const SocialMedia = styled.section`
 max-width: 1000px;

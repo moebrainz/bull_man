@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaDiscord, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaTelegram, FaTwitter, FaMedium } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinkWrap, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLinks } from './FooterElement';
+import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinkWrap, FooterLinkItems, FooterLinkTitle, FooterLink, FooterLinker, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLinks } from './FooterElement';
 
 const Footer = () => {
    const toogleHome = () => {
@@ -17,7 +17,12 @@ const Footer = () => {
                      <FooterLinkItems>
                         <FooterLinkTitle>About Us </FooterLinkTitle>
                         <FooterLink to="/"> How it Works</FooterLink>
-                        <FooterLink to="/"> Tokenomics</FooterLink>
+                        <FooterLink to="" >
+                           <FooterLinker href="https://link.medium.com/wLPhtu4kAlb">
+                              Tokenomics
+                           </FooterLinker>
+                        </FooterLink>
+
                      </FooterLinkItems>
 
                      <FooterLinkItems>
@@ -42,16 +47,19 @@ const Footer = () => {
                         All rights reserved.
                      </WebsiteRights>
                      <SocialIcons>
-                        <SocialIconLinks href="/" target="_blank" arial-label="twitter">
+                        <SocialIconLinks href="https://twitter.com/Bullmantoken?t=YSA-LtMgz3SZV6M4i3Bp3A&s=09" target="_blank" arial-label="twitter">
                            <FaTwitter />
                         </SocialIconLinks>
 
-                        <SocialIconLinks href="/" target="_blank" arial-label="telegram">
+                        <SocialIconLinks href="https://t.me/BULLMAN_TOKENS" target="_blank" arial-label="telegram">
                            <FaTelegram />
                         </SocialIconLinks>
 
-                        <SocialIconLinks href="/" target="_blank" arial-label="discord">
+                        <SocialIconLinks href="https://discord.gg/NTQ2xFPD" target="_blank" arial-label="discord">
                            <FaDiscord />
+                        </SocialIconLinks>
+                        <SocialIconLinks href="https://link.medium.com/unqg0Y3otlb" target="_blank" arial-label="discord">
+                           <FaMedium />
                         </SocialIconLinks>
                      </SocialIcons>
                   </SocialMediaWrap>
