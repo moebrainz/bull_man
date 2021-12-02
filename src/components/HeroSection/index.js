@@ -31,13 +31,13 @@ const HeroSection = () => {
                   Get Token From TinyMan {hover ? <ArrowForward /> : <ArrowRight />}
 
                </ButtonLink>
-               <ButtonLink to='/buy'
+               <ButtonLink href="https://forms.gle/Wnk6zSjQzuPJrfLP6"
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
                   primary="true"
                   dark="true"
                >
-                  Get Token Presale {hover ? <ArrowForward /> : <ArrowRight />}
+                  BullmanSpace Presale {hover ? <ArrowForward /> : <ArrowRight />}
 
                </ButtonLink>
             </HeroBtnWrapper>
