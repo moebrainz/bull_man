@@ -1,0 +1,23 @@
+export const presaleObj = {
+   id: 'presale',
+   lightBg: true,
+   lightText: false,
+   lightTextDesc: true,
+   topLine: 'PRESALE',
+   headline: 'BullmanSpace Presale',
+   description: 'PRE-SALE SUPPLY: 2.000.000   ',
+   description1: 'MIN PURCHASE: 15 Algo = 50 $BULL',
+   description2: 'MAX PURCHASE: 296 Algo = 1000 $BULL',
+   description3: 'LISTENING PRICE: $0.50,   END TIME : 26th DECEMBER',
+   description4: ' Add ASA: 427986827,    NAME :THE BULL MAN SPACE  ',
+   description5: 'PRE-SALE ADDRESS:',
+   description7: 'PD3XO4O5B374D4GD3PEQ2ULBDIXKN7ZM7DADVRTEPNVH7QFGD5TJJWY4RA',
+   description6: 'Use your wallet to send ALGO to the Pre-sale address. Our system will send $BULL tokens to your wallet instantly. ',
+   buttonLabel: 'Copy',
+   imgStart: true,
+   img: require('../../images/svg-6.svg').default,
+   alt: 'presale',
+   dark: true,
+   primary: true,
+   darkText: true
+}

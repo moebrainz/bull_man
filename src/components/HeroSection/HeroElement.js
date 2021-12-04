@@ -36,7 +36,7 @@ background: #232a34;
    ;
 
 export const HeroContent = styled.div` 
-z index: 3
+z-index: 3;
 max-width: 1200px;
 position: absolute;
 padding: 8px 24px;
@@ -52,7 +52,7 @@ text-align: center;
 
 @media screen and (max-width: 768px) {
    font-size: 60px;
-
+}
 @media screen and (max-width: 480px) {
    font-size: 32px;
 }
@@ -67,6 +67,7 @@ max-width: 600px;
 
 @media screen and (max-width: 768px) {
    font-size: 24px;
+}
 
 @media screen and (max-width: 480px) {
    font-size: 18px;

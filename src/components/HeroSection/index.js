@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElement';
 import Video from '../../video/v2.mp4';
-import { ButtonLink } from '../ButtonElement';
+import { Button, ButtonLink } from '../ButtonElement';
+
 
 const HeroSection = () => {
 
@@ -31,7 +32,7 @@ const HeroSection = () => {
                   Get Token From TinyMan {hover ? <ArrowForward /> : <ArrowRight />}
 
                </ButtonLink>
-               <ButtonLink href="https://forms.gle/Wnk6zSjQzuPJrfLP6"
+               <Button to="/presale"
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
                   primary="true"
@@ -39,7 +40,7 @@ const HeroSection = () => {
                >
                   BullmanSpace Presale {hover ? <ArrowForward /> : <ArrowRight />}
 
-               </ButtonLink>
+               </Button>
             </HeroBtnWrapper>
          </HeroContent>
       </HeroContainer>
