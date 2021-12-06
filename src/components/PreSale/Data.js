@@ -15,7 +15,7 @@ export const presaleObj = {
    description6: 'Use your wallet to send ALGO to the Pre-sale address. Our system will send $BULL tokens to your wallet instantly. ',
    buttonLabel: 'Copy',
    imgStart: true,
-   img: require('../../images/svg-6.svg').default,
+   img: require('../../images/svg-6.svg'),
    alt: 'presale',
    dark: true,
    primary: true,

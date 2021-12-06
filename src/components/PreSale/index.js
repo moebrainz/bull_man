@@ -20,8 +20,8 @@ const PreSale = ({ lightBg, id, imgStart, topLine, lightText, headline, descript
                         <Subtitle darkText={darkText} >{description1}</Subtitle>
                         <Subtitle darkText={darkText} >{description2}</Subtitle>
                         <Subtitle darkText={darkText} >{description3}</Subtitle>
-                        <Subtitle darkText={darkText} >{description4}</Subtitle>
                         <Subtitle darkText={darkText} >{description6}</Subtitle>
+                        <Subtitle darkText={darkText} >{description4}</Subtitle>
                         <Subtitle darkText={darkText} >{description5}</Subtitle>
                         <Subtitle darkText={darkText} >{description7}</Subtitle>
                         <BtnWrap>
