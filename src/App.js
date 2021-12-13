@@ -22,6 +22,8 @@ function App() {
       <Router>
          <Sidebar isOpen={isOpen} toggle={toggle} />
          <Navbar toggle={toggle} />
+
+
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/presale" element={<PreSale {...presaleObj} />} />

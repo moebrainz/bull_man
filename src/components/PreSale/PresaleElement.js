@@ -4,12 +4,11 @@ export const PresaleContainer = styled.div`
 color: #fff;
 background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 position: relative;
-display: flex;
+display: grid;
 margin-top: 80px;
+padding: 100px 0;
 
-@media screen and (max-width: 768px){
-   padding: 100px 0;
-}
+
 `
 
 export const PresaleWrapper = styled.div`
@@ -22,38 +21,35 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
+
+
 `
 
 export const PresaleRow = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-align-items: center;
-grid-template-areas: "span" "span"  ; 
+grid-template-columns: 1fr;
 
 @media screen and (max-width: 768px) {
    grid-template-columns: 1fr;
-   grid-template-rows: 0.3fr 0.3fr;
-   grid-template-areas:  "span" "span";
+   word-wrap: break-word;
+   
 }
+
+
 `
 
 export const Column1 = styled.div`
 margin-bottom: 20px;
 padding: 0 10px;
-grid-area: span;
 `
 
-export const Column2 = styled.div`
-margin-bottom: 20px;
-padding: 0px 10px;
-grid-area: span;
 
-`
 
 export const TextWrapper = styled.div`
    max-width: 540px;
    padding-top: 0;
    padding-bottom: 80px;
+
+  
 `
 
 export const TopLine = styled.p`
@@ -80,11 +76,15 @@ color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 `
 export const Subtitle = styled.p`
 color: #fff;
-max-width: 480px;
+max-width: 468px;
 margin-bottom: 35px;
-font-size: 18px;
-line-height: 24px;
+font-size: 9px;
+line-height: 15px;
 color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+justify-content: center;
+word-wrap: break-word;
+
+
 `
 
 export const BtnWrap = styled.div`
@@ -94,13 +94,3 @@ height: 100%;
 `
 
 
-export const ImgWrap = styled.div`
-max-width: 555px;
-height: 100%;
-`
-
-export const Img = styled.img`
-width: 100%;
-margin: 0 0 10px 0;
-padding-right: 0;
-`
