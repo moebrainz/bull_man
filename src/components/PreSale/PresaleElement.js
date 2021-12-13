@@ -76,13 +76,18 @@ color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 `
 export const Subtitle = styled.p`
 color: #fff;
-max-width: 468px;
+max-width: 469px;
 margin-bottom: 35px;
-font-size: 9px;
-line-height: 15px;
+font-size: 18px;
+line-height: 23px;
 color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 justify-content: center;
-word-wrap: break-word;
+
+
+@media screen and (max-width: 768px) {
+   font-size: 9px;
+   word-wrap: break-word;
+}
 
 
 `
