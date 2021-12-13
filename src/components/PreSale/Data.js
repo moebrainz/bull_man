@@ -1,8 +1,8 @@
 export const presaleObj = {
    id: 'presale',
-   lightBg: false,
-   lightText: true,
-   lightTextDesc: true,
+   lightBg: true,
+   lightText: false,
+   lightTextDesc: false,
    topLine: 'PRESALE',
    headline: 'BullmanSpace Presale',
    description: 'PRE-SALE SUPPLY: 2.000.000   ',
@@ -19,5 +19,5 @@ export const presaleObj = {
    alt: 'presale',
    dark: true,
    primary: true,
-   darkText: false
+   darkText: true
 }
