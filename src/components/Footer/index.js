@@ -18,7 +18,7 @@ const Footer = () => {
                         <FooterLinkTitle>About Us </FooterLinkTitle>
                         <FooterLink to="/"> How it Works</FooterLink>
                         <FooterLink to="" >
-                           <FooterLinker href="https://link.medium.com/wLPhtu4kAlb">
+                           <FooterLinker href="https://bit.ly/3rb4qYO">
                               Tokenomics
                            </FooterLinker>
                         </FooterLink>
