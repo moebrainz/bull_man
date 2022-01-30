@@ -8,7 +8,7 @@ export const presaleObj = {
    description: 'PRE-SALE SUPPLY: 2.000.000   ',
    description1: 'MIN PURCHASE: 15 Algo = 50 $BULL',
    description2: 'MAX PURCHASE: 296 Algo = 1000 $BULL',
-   description3: 'LISTENING PRICE: $0.50,   END TIME : 26th DECEMBER',
+   description3: 'LISTENING PRICE: $0.50,   END TIME : 1st APRIL',
    description4: ' Add ASA: 427986827,    NAME :THE BULL MAN SPACE  ',
    description5: 'PRE-SALE ADDRESS:',
    description7: 'PD3XO4O5B374D4GD3PEQ2ULBDIXKN7ZM7DADVRTEPNVH7QFGD5TJJWY4RA',
