@@ -58,7 +58,7 @@ const Footer = () => {
                         <SocialIconLinks href="https://discord.gg/NTQ2xFPD" target="_blank" arial-label="discord">
                            <FaDiscord />
                         </SocialIconLinks>
-                        <SocialIconLinks href="https://link.medium.com/unqg0Y3otlb" target="_blank" arial-label="discord">
+                        <SocialIconLinks href="https://bit.ly/3rb4qYO" target="_blank" arial-label="discord">
                            <FaMedium />
                         </SocialIconLinks>
                      </SocialIcons>
