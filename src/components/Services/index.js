@@ -10,7 +10,7 @@ const Services = ({ icon1, icon2, icon5 }) => {
          <ServicesWrapper>
             <ServicesCard>
                <ServicesIcons src={icon1} />
-               <ServicesH2>Q4  2021 </ServicesH2>
+               <ServicesH2>Q1  2022 </ServicesH2>
                <ServicesP> Bullman Team Formation </ServicesP>
                <ServicesP> Set up social media channels </ServicesP>
                <ServicesP> Airdrop program </ServicesP>
@@ -21,18 +21,17 @@ const Services = ({ icon1, icon2, icon5 }) => {
 
             <ServicesCard>
                <ServicesIcons src={icon2} />
-               <ServicesH2>Q1  2022 </ServicesH2>
+               <ServicesH2>Q2  2022 </ServicesH2>
                <ServicesP> Partnership </ServicesP>
                <ServicesP> White paper release </ServicesP>
                <ServicesP> CoinGecko,CMC listing </ServicesP>
                <ServicesP> Minor exchange listing </ServicesP>
-               <ServicesP> pre-sale </ServicesP>
                <ServicesP> Reward early adopters </ServicesP>
             </ServicesCard>
 
             <ServicesCard>
                <ServicesIcons src={icon5} />
-               <ServicesH2>Q2 2022</ServicesH2>
+               <ServicesH2>Q3 2022</ServicesH2>
                <ServicesP> setting up of gallery for early creators </ServicesP>
                <ServicesP> Large chains/platforms partnership</ServicesP>
                <ServicesP> Global marketing campaign </ServicesP>
