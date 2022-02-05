@@ -7,7 +7,7 @@ export const presaleObj = {
    headline: 'BullmanSpace Presale',
    description: 'PRE-SALE SUPPLY: 2.000.000   ',
    description1: 'MIN PURCHASE: 20 Algo = 50 $BULL',
-   description2: 'MAX PURCHASE: 300 Algo = 1000 $BULL',
+   description2: 'MAX PURCHASE: 300 Algo = 750 $BULL',
    description3: 'LISTING PRICE: $0.50,   PRESALE ENDS: 1st APRIL',
    description4: ' Add ASA: 427986827,    NAME :THE BULL MAN SPACE  ',
    description5: 'PRE-SALE ADDRESS:',
