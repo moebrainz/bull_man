@@ -32,7 +32,7 @@ export const homeObjtwo = {
    dark: false,
    primary: true,
    darkText: true,
-   href: 'https://link.medium.com/wLPhtu4kAlb'
+   href: 'https://link.medium.com/'
 };
 
 
