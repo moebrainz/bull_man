@@ -23,7 +23,7 @@ const HeroSection = () => {
                The first ever token that rewards holders through NFT
             </HeroP>
             <HeroBtnWrapper>
-               <ButtonLink href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=427986827"
+               <ButtonLink href="https://app.tinyman.org/#/swap?asset_in=0&asset_out="
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
                   primary="true"
