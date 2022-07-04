@@ -38,7 +38,7 @@ const HeroSection = () => {
                   primary="true"
                   dark="true"
                >
-                  BullmanSpace Presale {hover ? <ArrowForward /> : <ArrowRight />}
+                  Get from Algodex {hover ? <ArrowForward /> : <ArrowRight />}
 
                </Button>
             </HeroBtnWrapper>
