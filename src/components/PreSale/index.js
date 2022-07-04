@@ -30,7 +30,7 @@ const PreSale = ({ lightBg, id, imgStart, topLine, lightText, headline, descript
                               onCopy={() => setCopied(true)}
                            >
 
-                              <Button to="/presale"
+                              <Button to="/Get from Algodex"
                                  smooth={true}
                                  duration={500}
                                  spy={true}
